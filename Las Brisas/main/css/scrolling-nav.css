@@ -1,0 +1,157 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+
+header {
+  padding: 100px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 100px 0 100px;
+  }
+	#slider-header {
+		padding: 0;
+	}
+}
+
+@media (max-width: 415px) {
+	.carousel-item {
+		height: auto;
+		max-height: 300px;
+	}
+}
+
+section {
+  padding: 150px 0;
+}
+
+h1 {
+	text-align: center !important;
+	padding-bottom: 30px;
+	font-size: 45px;
+	font-family: 'Alegreya Sans SC', sans-serif;	
+}
+
+h4 {
+	text-align: center;
+	font-family: 'Cabin', sans-serif;
+}
+
+p {
+	font-family: 'Cabin', sans-serif;
+}
+
+/*	Fonts	*/
+
+#website-title {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 110px;
+	text-shadow: 5px 5px 10px #222;
+	letter-spacing: 10px;
+}
+
+#website-title-sibling {
+	font-style: italic;
+	font-size: 165%;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	text-shadow: 5px 2px 10px #222;
+	letter-spacing: 5px;
+} 
+
+.navbar-dark,
+.navbar-nav,
+.nav-link {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 105%
+}
+
+/*	Carousel	*/
+
+
+/*	Images	*/
+
+#jumbotron {
+	padding: 0 !important;
+}
+
+#megatron {
+	padding: 50px 0;
+}
+
+
+
+/*	Nav Bar	*/
+
+
+/*	About Section	 */
+
+
+
+/*	Hours Section	*/
+
+.hours-container {
+	font-family: 'Cabin', sans-serif;
+	display: flex;
+	justify-content: space-evenly;
+	color: white;
+	font-weight: bold;
+	background-color: #28a745;
+}
+
+/*	Location Section	*/
+
+.location-container {
+	font-family: 'Cabin', sans-serif;
+	letter-spacing: 1px;
+	line-height: 30px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #28a745;
+	opacity: 1px;
+	color: white;
+}
+
+/*	Contact Section	*/
+
+
+
+/*	Social Media Secion	*/
+
+#icon-bar {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.social-media-icon {
+	color: white;
+	font-size: 220%;
+	transition: font-size .4s ease-in-out;
+}
+
+.social-media-icon:hover {
+	color: #28a745;
+	font-size: 165%;
+}
+
+.social-media-icon:visited {
+	color: white;
+	font-size: 220%;
+}
+
+
+/*
+@media only screen and (max-width: 600px) {
+	img {
+		margin: 0 auto;
+	}
+	h2,
+	button {
+		display: flex;
+		justify-content: center;
+	}
+}
+*/
